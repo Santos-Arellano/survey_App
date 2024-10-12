@@ -40,3 +40,13 @@ Entrega el archivo `.zip` del proyecto (excluyendo `node_modules`) o proporciona
 - [Componentes básicos de React Native](https://reactnative.dev/docs/components-and-apis)
 - [Navegación entre pantallas en React Native](https://reactnavigation.org/docs/getting-started/)
 - [Slider en React Native](https://reactnative.dev/docs/slider)
+
+
+### pasos para correr
+
+- npm install
+- npx expo start
+- npx react-native run-android
+- # o
+- npx react-native run-ios
+
