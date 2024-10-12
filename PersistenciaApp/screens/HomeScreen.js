@@ -7,7 +7,6 @@ const HomeScreen = ({ navigation }) => {
   const [green, setGreen] = useState(0);
   const [blue, setBlue] = useState(0);
 
-  // Al cargar la pantalla, obtener los valores almacenados
   useEffect(() => {
     const fetchData = async () => {
       const r = await AsyncStorage.getItem('red');
@@ -20,7 +19,6 @@ const HomeScreen = ({ navigation }) => {
     fetchData();
   }, []);
 
-  // Guardar valores de color en AsyncStorage
   const saveColor = async () => {
     await AsyncStorage.setItem('red', red.toString());
     await AsyncStorage.setItem('green', green.toString());

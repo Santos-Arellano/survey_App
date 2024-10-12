@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './screens/HomeScreen';
-import QueryScreen from './screens/QueryScreen';
+import HomeScreen from './screens/HomeScreen'; // Ensure this path is correct
+import QueryScreen from './screens/QueryScreen'; // Ensure this path is correct
 
 const Stack = createStackNavigator();
 
